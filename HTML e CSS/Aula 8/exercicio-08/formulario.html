@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Paradiso</title>
+</head>
+<body>
+    <img src="imagens/logotipo.png" alt="Logotipo da Pousada Paradiso">
+    <h1>Pousada Paradiso</h1>
+    <p>Conheça nossos chalés e nosso quarto comunitário, faça sua reserva e aproveite sua estadia!</p>
+    <h2>Formulário para reservas</h2>
+    <p>Preencha o formulário abaixo e entraremos em contato para dar andamento com sua reserva...</p>
+    <form action="">
+        <label for="nome">Nome</label><br>
+        <input type="text" name="nomecompleto" id="nome" placeholder="Seu nome completo..."><br><br>
+
+        <label for="telefone">Telefone</label><br>
+        <input type="text" name="telefone" id="telefone" placeholder="Seu telefone..."><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Seu email..."><br><br>
+
+        <label for="hospedagem">Hospedagem</label><br>
+        <select name="hospedagem" id="hospedagem">
+            <option value="chale-plus">Chalé Plus</option>
+            <option value="chale-master">Chalé Master</option>
+            <option value="quarto">Quarto</option>
+        </select><br><br>
+
+        <label for="">Entrada</label><br>
+        <input type="text" name="data-entrada" id="data-entrada" placeholder="DD/MM/AAAA"><br><br>
+
+        <label for="">Saída</label><br>
+        <input type="text" name="data-saida" id="data-saida" placeholder="DD/MM/AAAA"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

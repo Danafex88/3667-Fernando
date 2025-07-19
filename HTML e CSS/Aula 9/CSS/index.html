@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Bike Store</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="topo">
+        <h1>Portal da Bike Store</h1>
+        <p>A MELHOR OPÇÃO EM BIKES!</p>
+    </div>
+    <div class="menu">
+        <a href="#">Página inicial</a>
+        <a href="#">Novidades</a>
+        <a href="#">Sobre</a>
+        <a class="destaque" href="#contato">Contato</a>
+    </div>
+    <section>
+        <div class="conteudo">
+            <h2>Competições</h2>
+            <p>Confira as próximas provas realizadas pela bike store</p>
+            <hr class="divisor">
+            <p class="destaque">Prova True Fun</p>
+            <p>Prova realizada na praça da bolha, com evento para toda a família com início às 08:00.</p>
+            <ul>
+                <li>Largada: 09:00</li>
+                <li>Distância: 20km</li>
+                <li>Premiação para todos os participantes</li>
+            </ul>
+            <p class="destaque">Prova Master League</p>
+            <p>Prova realizada na pista Regis Rezende.</p>
+            <ul>
+                <li>Largada: 08:00</li>
+                <li>Distância: 50km</li>
+                <li>Premiação para os cinco primeiros colocados</li>
+            </ul>
+        </div>
+    </section>
+    <section  class="fundo">
+        <div class="conteudo">
+            <h2>Promoções</h2>
+            <p>Confira nossa tabela de promoções para bikes e participe de nossos eventos</p>
+            <table>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Aro</th>
+                    <th>Valor</th>
+                </tr>
+                <tr>
+                    <td>XT 1200</td>
+                    <td>26"</td>
+                    <td>R$ 1.800,00</td>
+                </tr>
+                <tr>
+                    <td>XT 1800</td>
+                    <td>28"</td>
+                    <td>R$ 2.800,00</td>
+                </tr>
+                <tr>
+                    <td>CT 1024</td>
+                    <td>24"</td>
+                    <td>R$ 800,00</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="conteudo">
+            <h2>Fale conosco</h2>
+            <p>Entre e contato e tire todas as suas dúvidas sobre o evento.</p>
+            <form action="">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nomecompleto" placeholder="Seu nome completo...">
+        
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Seu email...">
+                
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        
+                <input type="submit" value="Enviar">
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>

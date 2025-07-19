@@ -1,0 +1,8 @@
+body{font-family:'Trebuchet MS', Arial, sans-serif; background-color: bisque; margin: 0px;}
+#conteudo{width: 900px; margin: auto; background-color: white;}
+#topo{background-image: url(topo.jpg); padding: 100px;}
+.texto-branco{color: white; text-align: center;}
+section{padding: 10px}
+.divisor{border-top: 2px solid #bbb; border-radius: 5px;}
+
+

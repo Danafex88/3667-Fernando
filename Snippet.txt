@@ -1,0 +1,33 @@
+ctrl + shift + P 
+snippet configuração
+html.jason
+copia o codigo e cola na pasta e salva 
+
+{
+  "Estrutura HTML com PHP": {
+    "prefix": "phphtml",
+    "body": [
+               "<!DOCTYPE html>",
+      "<html lang=\"pt-BR\">",
+      "<head>",
+      "  <meta charset=\"UTF-8\">",
+      "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "  <title>${2:Título}</title>",
+      "</head>",
+      "<body>",
+      "  ${3:<!-- Conteúdo -->}",
+      "</body>",
+      "</html>"
+    ],
+    "description": "Template básico com PHP e HTML"
+  },
+  "Bloco PHP em HTML": {
+    "prefix": "phpblock",
+    "body": [
+      "<?php",
+      "  $1",
+      "?>"
+    ],
+    "description": "Inserir bloco PHP em HTML"
+  }
+}

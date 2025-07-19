@@ -1,0 +1,25 @@
+/meu-sistema/
+│
+├── index.php               # Página inicial (ex: login ou dashboard)
+├── conexao.php             # Conexão com o banco de dados (MySQL)
+├── logout.php              # Para encerrar sessão
+│
+├── /paginas/               # Páginas visuais (HTML + PHP misturados)
+│   ├── cadastro_usuario.php
+│   ├── lista_usuarios.php
+│   └── editar_usuario.php
+│
+├── /funcoes/               # Funções utilitárias em PHP
+│   ├── usuario.php         # Funções relacionadas a usuário (CRUD)
+│   └── validacoes.php      # Validações (ex: senha, e-mail, etc)
+│
+├── /includes/              # Partes reutilizáveis de HTML (com PHP)
+│   ├── cabecalho.php       # <head>, menu, etc
+│   └── rodape.php          # footer
+│
+├── /assets/                # CSS, JS, imagens etc.
+│   ├── css/
+│   ├── js/
+│   └── img/
+│
+└── .htaccess               # (opcional) para reescrever URLs amigáveis
